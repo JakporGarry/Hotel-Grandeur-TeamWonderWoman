@@ -1,0 +1,49 @@
+.navbar-custom {
+    border-bottom: 1px solid #ffffff;
+}
+
+.navbar-brand_custom {
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.navbar-brand_custom:hover {
+    color: #ffffff;
+}
+
+.navbar-nav li:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.navbar-nav li a {
+    color: #ffffff;
+}
+
+.navbar-nav li a:hover {
+    color: #ffffff !important;
+}
+
+.active-link {
+    border-bottom: 2px solid #ffffff;
+}
+
+/**************************************************
+    * @media queries *
+***************************************************/
+
+@media only screen and (max-width: 800px) {
+    .navbar-custom {
+        background-color: #3B8CC6;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-custom {
+        background-color: #3B8CC6;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}

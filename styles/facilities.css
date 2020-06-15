@@ -1,0 +1,16 @@
+#spa, #business{
+    background-color: #f7f7ff;
+}
+#spa .section-img, #business .section-img{
+    order: 2;
+}
+#spa .section-text, #business .section-text{
+    order: 1;
+}
+
+/*Media Queries*/
+@media screen and (max-width:800px){
+    #spa .section-img, #business .section-img{
+        order: 1;
+    }
+}
